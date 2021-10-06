@@ -1,0 +1,17 @@
+// MIXINS 
+@mixin  d-f {
+    display: flex;
+    align-items: center;
+}
+@mixin list-style {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+@mixin  breakpoint-down ($breakpoint) {
+    @media only screen and (max-width: $breakpoint) {
+        @content;
+    } 
+}

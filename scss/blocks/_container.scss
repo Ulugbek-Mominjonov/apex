@@ -1,0 +1,34 @@
+// CONTAINER 
+.container {
+    width: 100%;
+    max-width: 1360px;
+    padding-left: 128px;
+    padding-right: 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@include breakpoint-down(1200px){
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@include breakpoint-down(992px){
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@include breakpoint-down(768px){
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@include breakpoint-down(500px){
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
