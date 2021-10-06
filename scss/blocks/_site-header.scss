@@ -34,6 +34,7 @@
   background-size: contain;
   background-position: center;
   border: none;
+  background-color: transparent;
 }
 .site-nav__list {
   @include list-style;
