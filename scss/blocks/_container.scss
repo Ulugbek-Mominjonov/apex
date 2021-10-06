@@ -1,9 +1,9 @@
 // CONTAINER 
 .container {
     width: 100%;
-    max-width: 1360px;
-    padding-left: 128px;
-    padding-right: 128px;
+    max-width: 1366px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,7 +28,8 @@
 }
 @include breakpoint-down(500px){
     .container{
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
 }

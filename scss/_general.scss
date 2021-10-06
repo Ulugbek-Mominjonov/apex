@@ -15,11 +15,13 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
-  background-color: #F2F2F2;
+  background: var(--linear) no-repeat;
+  background-size: cover;
+  color: var(--dark);
 }
 img {
   max-width: 100%;
