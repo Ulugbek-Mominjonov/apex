@@ -1,0 +1,19 @@
+.controllers-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.controller-button {
+  padding: 0;
+  width: 35px;
+  height: 4px;
+  background-color: var(--grey);
+  border: none;
+  cursor: pointer;
+}
+.controller-button--active {
+  background-color: #00285B;
+}
+.controller-button:not(:first-child) {
+  margin-left: 10px;
+}

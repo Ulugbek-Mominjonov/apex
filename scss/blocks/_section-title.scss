@@ -1,0 +1,15 @@
+.section-heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--tail);
+}
+@include breakpoint-down(550px) {
+  .section-heading{
+    font-size: 30px;
+  }
+}

@@ -1,7 +1,6 @@
 /* Common styles */
 html {
   box-sizing: border-box;
-  height: 100%;
   scroll-behavior: smooth;
 }
 *,
@@ -10,17 +9,12 @@ html {
   box-sizing: inherit;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  background: var(--linear) no-repeat;
-  background-size: cover;
+  background: linear-gradient(124.06deg, #ECFEFA 9.47%, #BEE9FF 29.35%, #DBEAFF 60.79%, #F3DBFF 85.49%);
+  background-repeat: no-repeat;
   color: var(--dark);
 }
 img {
